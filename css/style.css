@@ -28,7 +28,6 @@
 #navbar-container ul li a:hover {
     text-decoration: underline overline;
 }
-
 #sidebar {
     position: fixed;
     right: 0%;
