@@ -1,12 +1,9 @@
-/* Top Navigation Bar */
-
 #main-navbar {
     background-color: blue;
     overflow: hidden;
     width: 100%;
     position: relative;
 }
-
 #navbar-container ul {
     list-style-type: none;
     margin: 0;
@@ -14,27 +11,23 @@
     position: relative;
     left: 50%;
 }
-
 #navbar-container ul li {
+    float: left;
     float: left;
     position: relative;
     right: 50%;
 }
-
 #navbar-container ul li a {
+    display: block;
     display: block;
     padding: 10px 20px;
     color: #fff;
     text-decoration: none;
     background-color: #000;
 }
-
 #navbar-container ul li a:hover {
     text-decoration: underline overline;
 }
-
-
-/* Sidebar Navigation */
 
 #sidebar {
     position: fixed;
@@ -43,13 +36,11 @@
     height: 100%;
     width: 20%;
 }
-
 #sidebar-container ul {
     list-style-type: none;
     text-align: center;
     padding: 0;
 }
-
 #sidebar-container ul li a {
     display: block;
     padding: 15px 0;
